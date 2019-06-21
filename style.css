@@ -6,6 +6,72 @@
 	outline: 0;
 	font-size: 100%;
 	vertical-align: baseline;
-	background: transparent;
+	background: red;
 }
 
+/* Navigation Bar style */
+.navBarContainer{
+    background-color: white;
+    opacity: 0.75;
+}
+
+.navBar{
+    background-color: whitesmoke;
+}
+
+.navBarLogo>img{
+    padding-top:1.0vw;
+	padding-left:1.0vw;
+	padding-right:1.0vw;
+}
+
+.navBarMenuBtn{
+    font-size: 1.50vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #C4C4C4;
+
+
+    text-align: center;
+    /*padding-top: 0.8vw;*/
+}
+
+.navBarMenuBtnRow{
+    height: 4.5vw;
+}
+
+.navBarMenuBtn>div>div>a{
+    display: inline-block;
+    padding-top: 1.25vw;
+    padding-bottom: 1.25vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+
+    color:#C4C4C4;
+    text-decoration: none;
+}
+
+.navBarMenuBtn>div>div>a:hover {
+    color: #F0F0F0;
+    text-decoration: none;
+}
+
+.navBarClientBtn{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+
+.navBarClientBtn>a{
+    display: inline-block;
+    color: #C4C4C4;
+    padding-top: 1.25vw;
+    padding-bottom: 1.25vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.navBarClientBtn>a:hover {
+    color: #F0F0F0;
+    text-decoration: none;
+}

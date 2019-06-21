@@ -19,13 +19,61 @@
 
 <body>
 
-
+<!-- Head navigation bar -->
+<nav class="navBarContainer">
+    <div class ="container-fluid navBar">
+        <div class="row" style="height: 4.5vw">
+            <div class="col-sm-1">
+                <a class="navBarLogo">
+                    <img src="media/blizzard_logo.png" style="width:100%">
+                    </img>
+                </a>
+            </div>
+            <div class="col-sm-8 navBarMenuBtn">
+                <div class="row">
+                    <div class="col-sm-6 navBarMenuBtnRow">
+                        <a onclick="showOverlay('games')">
+                            games &#9660
+                        </a>
+                        <a>
+                            shop
+                        </a>
+                        <a>
+                            news
+                        </a>
+                        <a onclick="showOverlay('esport')">
+                            esport &#9660 
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3" style="height: 4.5vw">
+                <div class="navBarClientBtn">
+                    <a>
+                        Support
+                    </a>
+                    <a onclick="showOverlay('login')">
+                        My Account
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</nav>
 
 
 <script>
-
-
-
+function showOverlay(menuName){
+    if(menuName == 'games')
+        console.log("showing overlay " + menuName);
+    else if(menuName == 'esport')
+        console.log("showing overlay " + menuName);
+    else if(menuName == 'login')
+        console.log("showing overlay " + menuName);
+    else
+        alert("Oops! You are trying to reach an unknown page");
+}
 </script>
 
 </body>    
