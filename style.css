@@ -6,17 +6,16 @@
 	outline: 0;
 	font-size: 100%;
 	vertical-align: baseline;
-	background: red;
+	/*background: red;*/
 }
 
 /* Navigation Bar style */
 .navBarContainer{
-    background-color: white;
-    opacity: 0.75;
-}
+    background-color: rgb(250, 250, 250, 0.25);
+    opacity: 1;
 
-.navBar{
-    background-color: whitesmoke;
+    position: absolute;
+    top: 0;
 }
 
 .navBarLogo>img{
@@ -38,6 +37,7 @@
 
 .navBarMenuBtnRow{
     height: 4.5vw;
+    cursor: pointer;
 }
 
 .navBarMenuBtn>div>div>a{
@@ -57,12 +57,18 @@
 }
 
 .navBarClientBtn{
-    font-size: 1.5vw;
+    font-size: 1.50vw;
+    text-transform: capitalize;
     font-weight: 500;
+
+    text-align: center;
+    cursor: pointer;
+    height: 4.5vw; 
+    left:4vw;
 }
 
 
-.navBarClientBtn>a{
+.navBarClientBtn>div>a{
     display: inline-block;
     color: #C4C4C4;
     padding-top: 1.25vw;
@@ -71,7 +77,16 @@
     padding-right: 0.5vw;
 }
 
-.navBarClientBtn>a:hover {
+.navBarClientBtn>div>a:hover {
     color: #F0F0F0;
     text-decoration: none;
+}
+
+.newsCarousel{
+    position: relative;
+    top: 0vw;
+}
+
+.carousel-control{
+    background: black;
 }
