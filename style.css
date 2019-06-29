@@ -90,3 +90,55 @@
 .carousel-control{
     background: black;
 }
+
+.gameCtlg{
+    background: navy;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 5vw; 
+    padding-bottom: 5vw;
+}
+
+.gameCtlgHeader{
+    font-size: 3vw;
+    font-weight: 500;
+    color: white;
+}
+
+.allGamesLink{
+    font-size: 1.5vw;
+    color: skyblue;
+}
+
+.allGamesLink: hover{
+    color: white;
+}
+
+.multi-item-carousel>.carousel-inner>.item{
+    transition: 500ms ease-in-out left;
+}
+
+
+.multi-item-carousel>.carousel-inner>.active>.left{
+    left:33%;
+}
+
+.multi-item-carousel>.carousel-inner>.active>.right{
+    right:33%;
+}
+
+.multi-item-carousel>.carousel-inner>.active>.next{
+    left:33%;
+}
+
+.multi-item-carousel>.carousel-inner>.active>.prev{
+    right:33%;
+}
+
+.multi-item-carousel>.carousel-control>.left{
+    background-image: none;
+}
+
+.multi-item-carousel>.carousel-control>.right{
+    background-image: none;
+}
